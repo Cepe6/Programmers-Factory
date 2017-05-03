@@ -46,6 +46,12 @@ The purpose of the web site is to make learning programming more accessible, the
   * Comments each of which has
     * Upvote and downvote buttons and counter
     * Content
+
+## Jobs 0%
+* Each has
+  * Author
+  * Description
+  * Contacting information
     
 ## italki-ish thing 0%
 * Two programmers can connect over chat to communicate on common topics

@@ -6,16 +6,13 @@ The purpose of the web site is to make learning programming more accessible, the
 * Everyone
   * Can post in the forum and answer questions in the forum
   * Can watch and post tutorials
-
 * Programmers
   * Can do freelance tasks
   * Can search for jobs
   * Can communicate over chat with other programmers
-
 * Companies
   * Can browse programmers to find suitable one for their job
   * Can post jobs
-  
 * Freelance employeers
   * Can post freelance tasks
   

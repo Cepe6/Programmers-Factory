@@ -1,0 +1,20 @@
+//
+   Created by cepe6 on 05.05.17.
+extends layout
+
+block content
+    form#registration-form(action="/sign-up")
+        label.account-label Sign Up
+        hr.account-hr
+        input(type="text" placeholder="Email")
+        input(type="text" placeholder="Username")
+        input(type="password" placeholder="Password")
+        input(type="password" placeholder="Repeat password")
+        button(type="submit" style="margin-top: 10px" data-sitekey="6LdCBCAUAAAAAEX4V2GcfD2p89g_LtgJFrINX2G8").sign-button.account-sign-up-button Sign Up
+div#login.account-split
+    form#login-form(action="/login")
+        label.account-label Sign In
+        hr.account-hr
+        input(type="text" placeholder="Username")
+        input(type="password" placeholder="Password")
+        button(type="submit" style="margin-top: 10px").sign-button.account-sign-in-button Sign In

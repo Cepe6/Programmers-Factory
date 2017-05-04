@@ -1,0 +1,54 @@
+#header-wrapper {
+    width: 100%;
+    background-color: #1E4369;
+    height: 10%;
+    display: table-cell;
+    top: 0;
+    position: fixed;
+}
+
+#header {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 100%;
+    vertical-align: middle;
+}
+
+#navigation {
+    display: inline;
+}
+
+#navigation ul {
+    display: inline;
+}
+
+#navigation ul li{
+    display: inline;
+    padding-left: 20px;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#account {
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+    float: right;
+}
+
+#account-img {
+    width: 30px;
+    height: 30px;
+}
+
+#account-img:hover {
+    cursor: pointer;
+}

@@ -1,10 +1,39 @@
 body {
-  text-align: center;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+}
+
+#body-wrapper {
+}
+
+#body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bordering {
+  border: 1px solid black;
 }
 
 #wrapper {
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  margin: 60px auto;
   padding: 20px;
+}
+
+.sign-button {
+  background-color: #1E4369;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #1E4369;
+  display: inline-block;
+  cursor: pointer;
+  color:#ffffff;
+  font-size: 17px;
+  padding: 15px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #2f6627;
 }

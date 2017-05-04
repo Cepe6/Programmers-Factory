@@ -5,6 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+//var passport = require('passport');
+//var LocalStrategy = require('passport-local').Strategy;
+
 var mongo = require('mongodb');
 var monk = require('monk');
 var db = monk('localhost:27017/programmers-factory');
@@ -31,6 +34,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.session({secret: "derpy"}));
+
+//app.use(passport.initialize());
+//app.use(passport.session());
 
 app.use('/', index);
 app.use('/users', users);
@@ -52,5 +59,33 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+/*
+passport.use(new LocalStrategy(
+    {
+        usernameField: 'email',
+        passwordField: 'password'
+    },
+    function(email, password, done) {
+        User.loadOne({ email: email }).then(function(user) {
+            if (!user || !user.authenticate(password)) {
+                return done(null, false, { message: 'Incorrect email or password.' });
+            }
 
+            done(null, user);
+        });
+    })
+);
+
+passport.serializeUser(function(user, done) {
+    done(null, user.id);
+});
+
+passport.deserializeUser(function(id, done) {
+    User.loadOne({ _id: id }).then(function(user) {
+        done(null, user);
+    }).catch(function(err) {
+        done(err, null);
+    });
+});
+*/
 module.exports = app;

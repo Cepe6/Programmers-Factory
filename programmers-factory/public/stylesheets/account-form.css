@@ -1,0 +1,91 @@
+#overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#account-form {
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 70%;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    border-radius: 25px;
+    background-color: #1E4369;
+    border: 5px solid #1E4369;
+    z-index: 10;
+}
+
+#register {
+    float:left;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#login {
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    float:right;
+}
+
+.account-split {
+    border-radius: 25px;
+    background-color: white;
+    display: inline;
+    height: 100%;
+    width: 49.5%;
+}
+
+#registration-form {
+    height: 90%;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.account-label {
+    font-size: 50px;
+}
+
+#registration-form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#login-form {
+    height: 90%;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#login-form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.account-sign-up-button {
+    position: relative;
+    bottom: 0;
+}
+.account-sign-in-button {
+    position: relative;
+    bottom: 0;
+}
+
+.account-hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #1E4369, #1E4369, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #1E4369, #1E4369, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #1E4369, #1E4369, #f0f0f0);
+    background-image: -o-linear-gradient(left, #1E4369, #1E4369, #f0f0f0);
+}

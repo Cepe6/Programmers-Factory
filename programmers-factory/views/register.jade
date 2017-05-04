@@ -1,0 +1,11 @@
+//
+   Created by cepe6 on 04.05.17.
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    form#formAddUser(name="adduser" method="post" action="/adduser")
+        input#inputUserName(type="text", placeholder="username", name="username")
+        input#inputUserEmail(type="password", placeholder="userpass", name="userpass")
+        button#btnSubmit(type="submit") submit

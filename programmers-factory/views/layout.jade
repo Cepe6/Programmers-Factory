@@ -1,7 +1,20 @@
-doctype html
+doctype
 html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/chunkfive-fontface.css')
   body
-    block content
+    header
+      nav
+        ul
+          li
+            a(href="/") Home
+          li
+            a(href="/about") About
+          li
+            a(href="/contact") Contact
+          li
+            a(href="/register") Register
+    section#wrapper
+      block content

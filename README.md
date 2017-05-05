@@ -2,21 +2,18 @@
 The purpose of the web site is to make learning programming more accessible, the communication between programmers more easy and let programmers get desired jobs less time-consuming and easier
 
 # Features
-## Account system 0%
+
+## Цепеш Младенов
+
+### Account system 0%
 * Everyone
   * Can post in the forum and answer questions in the forum
   * Can watch and post tutorials
-* Programmers
-  * Can do freelance tasks
-  * Can search for jobs
+  * Can do and post freelance tasks
+  * Can search for and post jobs
   * Can communicate over chat with other programmers
-* Companies
-  * Can browse programmers to find suitable one for their job
-  * Can post jobs
-* Freelance employeers
-  * Can post freelance tasks
   
-## Forum 0%
+### Forum 0%
 * For asking questions
 * Programmers get points for answering the questions
 * Each forum topic has
@@ -29,7 +26,9 @@ The purpose of the web site is to make learning programming more accessible, the
   * Comments to the answers and description
   * Upvote and downvote buttons to the answers + votes counter
 
-## Freelance jobs 0%
+## Георги Низамски
+
+### Freelance jobs 0%
 * Freelance employeer uploads new freelance task and programmers apply for it, then the employeer choses between the aplicants and decides who to work with
 * Each freelance job has
   * Author
@@ -38,8 +37,18 @@ The purpose of the web site is to make learning programming more accessible, the
   * Prize
   * Deadline
   
-## Tutorial videos 0%
-* A company or programmer uploads a tutorial video which has
+### Jobs 0%
+* Each has
+  * Author
+  * Salary + option for negotiable
+  * Apply button
+  * Description
+  * Contacting information
+   
+## Даниел Туечки
+  
+### Tutorial videos 0%
+* A user uploads a tutorial video which has
   * Upvote and downvote buttons and counter
   * Author
   * Description
@@ -47,11 +56,5 @@ The purpose of the web site is to make learning programming more accessible, the
     * Upvote and downvote buttons and counter
     * Content
 
-## Jobs 0%
-* Each has
-  * Author
-  * Description
-  * Contacting information
-    
-## italki-ish thing 0%
+### Chat system 0%
 * Two programmers can connect over chat to communicate on common topics

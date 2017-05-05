@@ -49,6 +49,10 @@
     margin-top: 5%;
 }
 
+#registration-form input {
+    display: block;
+}
+
 .account-label {
     font-size: 50px;
 }
@@ -66,6 +70,7 @@
 }
 
 #login-form input {
+    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
 }

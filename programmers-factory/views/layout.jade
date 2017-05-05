@@ -18,6 +18,7 @@ html
                     input(type="password" placeholder="Repeat password")
                     button(type="submit" style="margin-top: 10px" data-sitekey="6LdCBCAUAAAAAEX4V2GcfD2p89g_LtgJFrINX2G8").sign-button.account-sign-up-button Sign Up
             div#login.account-split
+                img#close-account-form(src="images/x.png" onclick="closeAccountForm()")
                 form#login-form(action="/login")
                     label.account-label Sign In
                     hr.account-hr

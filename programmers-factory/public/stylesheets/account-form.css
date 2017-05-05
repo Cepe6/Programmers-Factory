@@ -89,3 +89,15 @@
     background-image: -ms-linear-gradient(left, #1E4369, #1E4369, #f0f0f0);
     background-image: -o-linear-gradient(left, #1E4369, #1E4369, #f0f0f0);
 }
+
+#close-account-form {
+    width: 10px;
+    height: 10px;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+}
+
+#close-account-form:hover {
+    cursor: pointer;
+}

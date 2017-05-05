@@ -9,7 +9,7 @@ html
     div#overlay
         div#account-form
             div#register.account-split
-                form#registration-form(role='form' onsubmit="post()" method="post" style='max-width: 300px;')
+                form#registration-form(role='form' action="/accounting/sign-up" method="post" style='max-width: 300px;')
                     label.account-label Sign Up
                     hr.account-hr
                     input#reg-username.form-control(type='text' name="username" placeholder='Enter Username')
@@ -17,7 +17,7 @@ html
                     button.sign-button.account-sign-up-button(type='submit') Submit
             div#login.account-split
                 img#close-account-form(src="images/x.png" onclick="closeAccountForm()")
-                form#login-form(action="/login")
+                form#login-form(action="/accounting/login")
                     label.account-label Sign In
                     hr.account-hr
                     input(type="text" placeholder="Username")

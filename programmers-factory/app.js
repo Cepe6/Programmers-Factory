@@ -17,6 +17,7 @@ var db = monk('localhost:27017/programmers-factory');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var accounting = require('./routes/accounting');
 
 var app = express();
 
@@ -42,6 +43,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use(passport.session());
 
 app.use('/', index);
+app.use('/accounting', accounting);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -61,7 +63,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-/*
+
 passport.use(new LocalStrategy(
     {
         usernameField: 'email',
@@ -89,5 +91,5 @@ passport.deserializeUser(function(id, done) {
         done(err, null);
     });
 });
-*/
+
 module.exports = app;

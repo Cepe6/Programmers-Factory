@@ -5,10 +5,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-//var passport = require('passport');
-//var LocalStrategy = require('passport-local').Strategy;
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
+
 
 var mongo = require('mongodb');
+var mongoose = require('mongoose');
 var monk = require('monk');
 var db = monk('localhost:27017/programmers-factory');
 

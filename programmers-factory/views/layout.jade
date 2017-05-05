@@ -9,14 +9,12 @@ html
     div#overlay
         div#account-form
             div#register.account-split
-                form#registration-form(action="/sign-up")
+                form#registration-form(role='form' onsubmit="post()" method="post" style='max-width: 300px;')
                     label.account-label Sign Up
                     hr.account-hr
-                    input(type="text" placeholder="Email")
-                    input(type="text" placeholder="Username")
-                    input(type="password" placeholder="Password")
-                    input(type="password" placeholder="Repeat password")
-                    button(type="submit" style="margin-top: 10px" data-sitekey="6LdCBCAUAAAAAEX4V2GcfD2p89g_LtgJFrINX2G8").sign-button.account-sign-up-button Sign Up
+                    input#reg-username.form-control(type='text' name="username" placeholder='Enter Username')
+                    input#reg-password.form-control(type='password' name="password" placeholder='Password')
+                    button.sign-button.account-sign-up-button(type='submit') Submit
             div#login.account-split
                 img#close-account-form(src="images/x.png" onclick="closeAccountForm()")
                 form#login-form(action="/login")

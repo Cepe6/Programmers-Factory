@@ -10,3 +10,8 @@ function closeAccountForm() {
     document.getElementById("overlay").style.display = "none";
     document.getElementById("account-form").style.display = "none";
 }
+
+function post() {
+    var username = document.getElementById("reg-username").value;
+    var password = document.getElementById("reg-password").value;
+}
